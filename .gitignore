@@ -1,0 +1,28 @@
+# Python environment
+.venv/
+venv/
+
+# Datasets
+data/raw/*
+data/processed/*
+data/interim/*
+
+# Directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+kaggle.json
