@@ -1,7 +1,8 @@
 import pandas as pd
 from pathlib import Path
 
-# file_path = Path("data/raw/creditcard.csv")
+file_path = Path("data/raw/creditcard.csv")
+
 
 
 
